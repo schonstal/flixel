@@ -2215,7 +2215,7 @@ class FlxTilemap extends FlxObject
 		return cachedGraphics = Value;
 	}
 	
-	override private function set_pixelPerfectRender(Value:Bool):Bool 
+	override private function set_pixelPerfectRender(Value:Null<Bool>):Null<Bool>
 	{
 		if (_buffers != null)
 		{

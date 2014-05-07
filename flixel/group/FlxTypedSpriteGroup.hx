@@ -750,7 +750,7 @@ class FlxTypedSpriteGroup<T:FlxSprite> extends FlxSprite
 		return blend = Value;
 	}
 	
-	override private function set_pixelPerfectRender(Value:Bool):Bool
+	override private function set_pixelPerfectRender(Value:Null<Bool>):Null<Bool>
 	{
 		if (exists && pixelPerfectRender != Value)
 			transformChildren(pixelPerfectTransform, Value);

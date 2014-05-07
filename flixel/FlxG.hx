@@ -87,6 +87,11 @@ class FlxG
 	 * array but you can do what you like with it.
 	 */
 	public static var camera:FlxCamera;
+
+  /**
+   * By default, should sprites render pixel perfect?
+   */
+  public static var pixelPerfectRender:Bool = true;
 	
 	/**
 	 * The HaxeFlixel version, in semantic versioning syntax. Use Std.string()
